@@ -166,3 +166,4 @@ PRODUCT_PACKAGES_DEBUG += \
 TARGET_MOTO_PLATFORM := msm8998
 TARGET_USES_OEM_AS_VENDOR := true
 $(call inherit-product, device/motorola/msm8998-common/common.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
